@@ -52,11 +52,26 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-    display: flex;
     flex-wrap: wrap;
+  }
+  #one,
+  #two{
+
+  }
+  #three{
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 800px) {
-
+  #content {
+    flex-wrap: nowrap;
+  }
+  #three,
+  #two,
+  #one {
+    width: 30vw;
+    height: 30vw;
+    flex: auto;
+  }
 }
