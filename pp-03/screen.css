@@ -34,7 +34,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-  height: 30vw;
+  height: 33.3333vw;
+  width: 33.3333vw;
   flex: auto;
 }
 
@@ -56,7 +57,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   }
   #one,
   #two{
-
+    height: 50vw;
   }
   #three{
     width: 100%;
@@ -70,8 +71,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #three,
   #two,
   #one {
-    width: 30vw;
-    height: 30vw;
+    width: 33.3333vh;
+    height: 33.3333vw;
     flex: auto;
   }
 }
