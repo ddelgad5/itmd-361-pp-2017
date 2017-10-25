@@ -43,5 +43,9 @@ function addTwo(x) {
   return x;
 }
 
+// x in line 5 is a variable while x in line 41 is a parameter.
+// The parameter is then used within the function. The parameter is treated
+// as a local variable.
+
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
