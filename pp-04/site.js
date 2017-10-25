@@ -19,13 +19,13 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  like `window.x`):
 
 var hfunc = function (){
-  var x = 5;
-  function double(num) {
-    num = num * 2;
-    return num;
+  var x1 = 5;
+  function double(num1) {
+    num1 = num1 * 2;
+    return num1;
   }
   double(6);
-  console.log('The value of x is:', x, 'It should be 5.');
+  console.log('The value of x is:', x1, 'It should be 5.');
 }
 hfunc();
 
