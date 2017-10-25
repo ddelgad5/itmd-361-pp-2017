@@ -5,8 +5,8 @@
 var x = 5;
 
 function double(num) {
-  x = num * 2;
-  return x;
+  num = num * 2;
+  return num;
 }
 
 double(6);
@@ -19,11 +19,13 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  like `window.x`):
 
 
+
+
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
 
 function arrayEach(array, func) {
-  for (i = 0; i < array.length; i++) {
+  for (var i = 0; i < array.length; i++) {
     func(array[i]);
   }
 }
