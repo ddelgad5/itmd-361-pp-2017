@@ -26,7 +26,7 @@ var hfunc = function (){
   }
   double(6);
   console.log('The value of x is:', x1, 'It should be 5.');
-}
+};
 hfunc();
 
 //  3. Correct this function so that there is no i variable in
@@ -38,9 +38,9 @@ function arrayEach(array, func) {
   }
 }
 
-arrayEach(['red','green','blue'], console.log);
+arrayEach(['red', 'green', 'blue'], console.log);
 
-console.log(typeof(i)) // should be 'undefined', not 3
+console.log(typeof(i)); // should be 'undefined', not 3
 
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
