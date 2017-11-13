@@ -1,6 +1,7 @@
 function playDoorBell() {
   var doorbell = new Audio('media/doorbell.mp3');
   doorbell.play();
+  jQuery('p.hide').fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100);
 }
 
 window.onload = function(){
