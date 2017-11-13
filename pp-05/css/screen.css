@@ -17,6 +17,10 @@ img {
 body {
   padding: 10%;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* ===== LAYOUT STYLES ===== */
 
@@ -25,3 +29,9 @@ body {
 
 
 /* ===== STATE STYLES ===== */
+.hide {
+  display: none;
+}
+a:hover {
+  background-color: gray;
+}
