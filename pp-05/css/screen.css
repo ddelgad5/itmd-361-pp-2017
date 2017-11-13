@@ -32,6 +32,7 @@ a {
 .hide {
   display: none;
 }
-a:hover {
+a:hover,
+a:focus {
   background-color: gray;
 }
